@@ -3,3 +3,7 @@ webdriver-manager==3.8.6
 pandas==2.1.1
 openpyxl
 numpy>=1.26.0,<2.0.0
+# streamlit==1.25.0  # Ensure compatibility with your version of Streamlit
+undetected-chromedriver==3.4.6
+
+

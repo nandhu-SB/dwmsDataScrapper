@@ -32,9 +32,18 @@ options.add_argument(f"profile-directory={profile_name}")
 
 
 def setup_driver():
-    """Sets up the Chrome WebDriver."""
+    """Sets up the Chrome WebDriver with the appropriate options."""
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+
+    # Specify the path to the Chrome binary (if required)
+    chrome_options.binary_location = "/usr/bin/google-chrome"
+
+    # Use WebDriver Manager to install ChromeDriver
     service = Service(ChromeDriverManager().install())
-    driver = webdriver.Chrome(service=service, options=options)
+    driver = webdriver.Chrome(service=service, options=chrome_options)
     return driver
 
 
