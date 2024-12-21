@@ -11,7 +11,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 import pandas as pd
 
 
-df=pd.read_excel("Foundit Activities.xlsx")
+df=pd.read_excel(r"C:\Users\nandh\Downloads\Employers.xlsx")
+print(df.shape)
+
 
 options = Options()
 options.add_argument('start-maximized')

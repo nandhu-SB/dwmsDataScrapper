@@ -2,11 +2,11 @@
 ## helloii Nandhu here,Detailed ReadMe docs generated from chat gpt becuse i was low on time,If you have any doubts first read this,then if you have any doubts read this again,And then if you have any doubts ,just contact me.Enjoy
 
 ### important points:
-#### use google chrome Version 104.0.5112.81 (Official Build) (64-bit), or else chrome driverumai match aakamatten.Download the mentioned version and then turn off the auto update in the google chrome settings
+#### If chrome driver exception comes up,use google chrome Version 104.0.5112.81 (Official Build) (64-bit) OR Version 131.0.6778.205 (Official Build) (64-bit) , or sometimes chrome driverumai match aakamatten.Download the mentioned version and then turn off the auto update in the google chrome settings.I have also included a working google chrome setup with this .
 #### aneeshettante login ithil .env akkathe public aakki vachittund,so use it carefully
-#### dwms_scrapper.py 21,22 lines 
-user_data_dir = "C:/Users/nandh/AppData/Local/Google/Chrome/User Data"
-profile_name = "Profile 1"
+#### dwms_scrapper.py 21,22 lines <br>
+#### user_data_dir = "C:/Users/nandh/AppData/Local/Google/Chrome/User Data" <br>
+#### profile_name = "Profile 1" <br>
 #### Ith ningalude systathile google profilumayit match aakkanam
 
 
